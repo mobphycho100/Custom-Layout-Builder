@@ -5,6 +5,8 @@
   width: 100%;
   color: #475569;
   margin: 5px 0;
+  min-height: 200px;
+  text-align: center;
 }
 .left-navbar {
   background-color: #e2e8f0;
@@ -20,6 +22,7 @@
   padding: 20px;
 }
 ul {
+  list-style-type: none;
   padding: 0;
 }
 .img-place {
@@ -30,4 +33,20 @@ ul {
   justify-content: center;
   align-items: center;
   margin: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .body-container {
+    flex-direction: column;
+  }
+  .img-place-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
 }

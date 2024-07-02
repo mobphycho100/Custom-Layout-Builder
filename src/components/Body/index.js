@@ -30,8 +30,10 @@ const Body = () => {
   const renderRightNavbar = () => (
     <nav className="right-navbar">
       <h1>Right Navbar</h1>
-      <div className="img-place">Ad 1</div>
-      <div className="img-place">Ad 2</div>
+      <div className="img-place-container">
+        <div className="img-place">Ad 1</div>
+        <div className="img-place">Ad 2</div>
+      </div>
     </nav>
   )
 
