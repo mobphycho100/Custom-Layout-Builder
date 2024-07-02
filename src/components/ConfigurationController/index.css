@@ -1,0 +1,8 @@
+/* Write your CSS here */
+.controller-container {
+  color: white;
+  font-weight: 600;
+  background-color: #475569;
+  padding: 5px 30px;
+  width: 100%;
+}
